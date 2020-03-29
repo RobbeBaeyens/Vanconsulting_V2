@@ -20,6 +20,11 @@
     &:hover {
       color: darken($primary, 10%);
     }
+    img {
+      margin-top: 0.1em;
+      width: 1.55em;
+      height: 1.55em;
+    }
   }
   .navbar-nav {
     .nav-item {
