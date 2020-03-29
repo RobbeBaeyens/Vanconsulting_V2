@@ -2,3 +2,5 @@
 /css
 /package-lock.json
 /Vanconsulting
+/vendor
+/js/agency.min.js
