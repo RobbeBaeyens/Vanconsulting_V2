@@ -1,0 +1,62 @@
+<!--Geef data-target een unieke naam verschillend van alle andere nieuwtjes !!!startend met een hashtag #!!!, bijvoorbeeld een nummer (in dit voorbeeld is gekozen voor #nieuwtje-1)-->
+<button type="button" class="btn-nieuwtje btn btn-lg btn-block leesmeer" data-toggle="modal" 
+
+    data-target="#nieuwtje-1">
+
+    <!------(Nieuwstitel) Hier staat de titeltekst die zcihtbaar is op de knop om het nieuwtje te openen------>
+
+    Nieuwtje 1
+
+    <!-------------------------------------------------------------------------------------------------------->
+</button>
+
+<!--Geef id dezelfde naam als data-target hierboven !!!zonder hashtag #!!! (in dit voorbeeld is gekozen voor nieuwtje-1)-->
+<div class="modal fade text-left" 
+
+    id="nieuwtje-1"
+    
+    tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">
+                    <!--(Nieuwstitel) Hier staat de titeltekst die zcihtbaar is in het nieuwtje------------------------------->
+                    <!--kopieer de tekst van hierboven---------------------------------------------------------->
+
+                    Nieuwtje 1
+
+                    <!-------------------------------------------------------------------------------------------------------->
+                </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body nieuwstekst">
+                <!--(Nieuwstekst) Hier staat de tekst van het nieuwtje om te lezen---------------------------------------->
+
+                <h4>Titel</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, perferendis!
+                    Illum adipisci eum quos deleniti dolorem explicabo ex repellendus dicta?
+                    Inventore facilis maxime soluta esse corporis culpa, voluptatum corrupti minima?</br>
+                    Modi omnis ad nihil eaque delectus sed. Vel, modi illo.
+                    Facilis aut labore eveniet quibusdam animi corrupti facere repellendus dolores?</p>
+
+                <h4>Titel 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, perferendis!
+                    Illum adipisci eum quos deleniti dolorem explicabo ex repellendus dicta?
+                    Inventore facilis maxime soluta esse corporis culpa, voluptatum corrupti minima?
+                    Modi omnis ad nihil eaque delectus sed. <strong>Lorem ipsum dolor sit amet.</strong>Vel, modi illo.
+                    Facilis aut labore eveniet quibusdam animi corrupti facere repellendus dolores?</p>
+
+                <a href="https://www.google.be" target="_blank">
+                    Dit is een link naar google
+                </a>
+
+                <!-------------------------------------------------------------------------------------------------------->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Terug</button>
+            </div>
+        </div>
+    </div>
+</div>

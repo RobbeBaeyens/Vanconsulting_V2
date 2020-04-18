@@ -1,0 +1,70 @@
+<!--Geef data-target een unieke naam verschillend van alle andere nieuwtjes !!!startend met een hashtag #!!!, bijvoorbeeld een nummer (in dit voorbeeld is gekozen voor #voorbeeldnieuwtje)-->
+<button type="button" class="btn-nieuwtje btn btn-lg btn-block leesmeer" data-toggle="modal"
+
+    data-target="#voorbeeldnieuwtje">
+    
+    <!------(Nieuwstitel) Hier staat de titeltekst die zcihtbaar is op de knop om het nieuwtje te openen------>
+
+    Als je op deze knop drukt verschijnt het nieuws
+
+    <!-------------------------------------------------------------------------------------------------------->
+</button>
+
+<!--Geef id dezelfde naam als data-target hierboven !!!zonder hashtag #!!! (in dit voorbeeld is gekozen voor voorbeeldnieuwtje)-->
+<div class="modal fade text-left" 
+
+    id="voorbeeldnieuwtje"
+
+    tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">
+                    <!--(Nieuwstitel) Hier staat de titeltekst die zcihtbaar is in het nieuwtje------------------------------->
+                    <!--kopieer de tekst van hierboven---------------------------------------------------------->
+
+                    Als je op deze knop drukt verschijnt het nieuws
+
+                    <!-------------------------------------------------------------------------------------------------------->
+                </h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body nieuwstekst">
+                <!--(Nieuwstekst) Hier staat de tekst van het nieuwtje om te lezen---------------------------------------->
+
+                <!-- zet de tekst tussen '<p>' en '</p>' om een paragraaf te maken------------------------------>
+                <p>Dit is de eerste paragraaf</p>
+                <p>Dit is de tweede paragraaf</p>
+
+                <!-- gebruik </br> een regel te breken en een lijn naar onder te verspringen-------------------->
+                <p>Dit is een zin die in het</br> midden verbroken is door &#60;/br&#62;</p>
+
+                <!-- lange tekst verspringt automatisch van regel----------------------------------------------->
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vel, aliquid suscipit, similique
+                    sint quos id laborum soluta, dolore quod vero odit maiores praesentium et adipisci omnis? Fugiat
+                    recusandae cumque, dolor alias nam voluptas illum cum praesentium repellat modi sit tenetur
+                    laudantium odio, libero nemo, sapiente quia molestias officia harum.</p>
+
+                <!-- zet de tekst tussen '<strong>' en '</strong>' om tekst vetgedrukt te maken ---------------->
+                <p>Deze zin heeft een <strong>vetgedrukt</strong> woordje.</p>
+
+                <!-- zet de tekst tussen '<h4>' en '</h4>' om een tussentitel te maken-------------------------->
+                <h4>Dit is een tussentitel</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusamus!</p>
+
+                <!-- om een link in je nieuwtje te plaatsen kopieer je dit en pas 'href' en de linktekst aan---->
+                <!-- in href vul je de website in waarnaar de link verwijst------------------------------------->
+                <a href="https://www.google.be" target="_blank">
+                    Dit is een link naar google
+                </a>
+
+                <!-------------------------------------------------------------------------------------------------------->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Terug</button>
+            </div>
+        </div>
+    </div>
+</div>
