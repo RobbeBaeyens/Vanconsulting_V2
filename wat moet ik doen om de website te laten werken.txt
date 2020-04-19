@@ -1,1 +1,12 @@
+Basisvereisten (eenmalig te installeren)
+Volgende tools hoef je maar eenmalig te installeren:
 
+De hoogste versie van Node
+Git
+gulp-cli: npm install -g gulp-cli
+
+Voeg node modules toe
+Open een nieuw terminalvenster in de map project naam en installeer de node-modules: npm install
+
+Zet SASS om naar CSS en run een live-server
+Start de Sass-compiler en live-server: gulp watch
