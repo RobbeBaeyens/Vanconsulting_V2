@@ -69,6 +69,10 @@
       }
     }
   };
+
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 </script>
 
 <body id="page-top">
@@ -91,13 +95,13 @@
             <a class="nav-link js-scroll-trigger" href="#diensten">Diensten</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="nieuws.html">Nieuws</a>
+            <a class="nav-link js-scroll-trigger" href="#nieuws">Nieuws</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.beforum.be">BEForum</a>
+            <a class="nav-link" href="https://www.beforum.be" data-toggle="tooltip" data-placement="bottom" title="De VZW Belgian Economic Forum – www.beforum.be">BEForum</a>
           </li>
         </ul>
       </div>
